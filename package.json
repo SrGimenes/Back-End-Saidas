@@ -1,0 +1,12 @@
+{
+  "name": "cadastrarSisdev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "node-excel-stream": "^1.2.1",
+    "node-xlsx": "^0.21.0",
+    "xhr2": "^0.2.1"
+  }
+}
