@@ -142,8 +142,8 @@ async function registrarDados(rowData) {
     try {
       const response = await axios.post('https://vegetal.indea.mt.gov.br/SISDEV/ws/saidaSementesMudas', cleanData[i], {
         auth: {
-          username: '03946067000888',
-          password: '4cdad1'
+          username: '',
+          password: ''
         }
       })
       success.push({
